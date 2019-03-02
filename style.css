@@ -1,3 +1,26 @@
 body{
-    background-color: pink;
+    background-color: lightgray;
+}
+
+.nav-link{
+    font-weight: lighter;
+}
+
+.nav-link:hover{
+    font-weight:bolder;
+    background-color: #eee;
+}
+
+header{ 
+    height: 600px;
+    width: 100%;
+    background-image:url("die.jpg");
+    background-size:cover;
+    text-align:center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header p{
+    font-style: italic;
 }
