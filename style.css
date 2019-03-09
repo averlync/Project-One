@@ -16,11 +16,36 @@ header{
     width: 100%;
     background-image:url("die.jpg");
     background-size:cover;
-    text-align:center;
+    text-align: left;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 header p{
-    font-style: italic;
+    font-size: 30px;
+}
+
+header h1{
+    font-size: 100px;
+    
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.aboutus i{
+    font-size: 30px;
+    padding: 25px 20px;
+    
+    /*change the color*/
+    color: #fff;
+    background-color: #778899;
+    
+    /*resize contaner of icon*/
+    width: 80px;
+    height: 80px;
+    
+    /*make the container round*/
+    border-radius: 50%;
 }
