@@ -49,3 +49,8 @@ header h1{
     /*make the container round*/
     border-radius: 50%;
 }
+
+.aboutus span{
+    width: 200px;
+    display: inline-block; 
+}
