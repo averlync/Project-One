@@ -31,12 +31,14 @@ header h1{
 }
 
 .aboutus {
+    margin-top: 20px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
 .aboutus i{
-    font-size: 30px;
-    padding: 25px 20px;
+    font-size: 60px;
+    padding: 10px 10px;
     
     /*change the color*/
     color: #fff;
@@ -53,4 +55,56 @@ header h1{
 .aboutus span{
     width: 200px;
     display: inline-block; 
+}
+
+.team{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    /*object fit will crop and center based on width and height*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px
+}
+
+.getinvolved {
+    background-color: #DFE4E7;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
+    /* adds padding on top and bottom*/
+    padding: 50px 0 80px;
+}
+
+.getinvolved h2{
+    color: #79858C;
+}
+
+.options{
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.getinvolved i{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.contact .btn{
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f0808;
+    color: #fff;
 }
